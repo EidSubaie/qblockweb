@@ -1,0 +1,213 @@
+.JobList_row__ZvTrC {
+  display: grid;
+  grid-column-gap: 24px;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  align-items: "end";
+  display: "none";
+}
+@media screen and (max-width: 960px) {
+  .JobList_row__ZvTrC {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-row-gap: 0;
+    grid-column-gap: 16px;
+  }
+}
+.JobList_row__ZvTrC.JobList_active__owIJg {
+  display: "grid";
+}
+.JobList_roleColumn__U2NDj {
+  grid-column: span 2 / span 2;
+  font-family: Pilat Wide;
+  align-self: start;
+  color: #9985a6;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  padding-top: 22px;
+  padding-bottom: 0;
+}
+@media screen and (max-width: 960px) {
+  .JobList_roleColumn__U2NDj {
+    grid-column: span 4 / span 4;
+    padding-top: 40px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(99, 99, 106, 0.6);
+  }
+}
+@media screen and (min-width: 960px) and (max-width: 1210px) {
+  .JobList_roleColumn__U2NDj {
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    padding-top: 18px;
+  }
+}
+.JobList_linkColumn__7uAxX {
+  z-index: 2;
+  grid-column-start: 1;
+  grid-column-end: span 4;
+  display: none;
+}
+.JobList_linkColumn__7uAxX.JobList_active__owIJg {
+  display: block;
+}
+@media screen and (min-width: 960px) {
+  .JobList_linkColumn__7uAxX {
+    grid-column-start: 3;
+    grid-column-end: span 10;
+  }
+}
+.JobList_link__yOMBM {
+  display: block;
+  margin: -1px 0 -1px -24px;
+  padding-left: 24px;
+  padding-right: 0;
+}
+.JobList_link__yOMBM:focus {
+  outline: none;
+  background: #a8a3b8;
+}
+.JobList_link__yOMBM:hover {
+  background: #a8a3b8;
+}
+.JobList_link__yOMBM:active {
+  background: #a8a3b8;
+}
+@media screen and (max-width: 960px) {
+  .JobList_link__yOMBM {
+    margin-right: -24px;
+    padding-right: 24px;
+  }
+}
+.JobList_linkRow__iQ7qy {
+  display: grid;
+  grid-column-gap: 24px;
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+  border-color: var(--chakra-colors-divider-teal);
+  padding: 18px 0;
+  align-items: end;
+  border-bottom: 1px solid;
+  border-color: rgba(99, 99, 106, 0.6);
+}
+@media screen and (max-width: 960px) {
+  .JobList_linkRow__iQ7qy {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-row-gap: 0;
+    grid-column-gap: 16px;
+  }
+}
+.JobList_link__yOMBM:hover .JobList_linkRow__iQ7qy {
+  border-bottom-color: transparent;
+}
+.JobList_linkRow__iQ7qy.JobList_isLast__vfYtZ {
+  border-bottom-color: #a0aec0;
+}
+@media screen and (max-width: 960px) {
+  .JobList_linkRow__iQ7qy {
+    border-color: rgba(99, 99, 106, 0.6) !important;
+  }
+}
+.JobList_titleColumn__3oZrC {
+  grid-column: span 3 / span 3;
+  color: #a8a3b8;
+  font-family: PPNeueMachina;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 0;
+}
+.JobList_link__yOMBM:focus .JobList_titleColumn__3oZrC,
+.JobList_link__yOMBM:hover .JobList_titleColumn__3oZrC {
+  color: #000;
+}
+@media screen and (max-width: 960px) {
+  .JobList_titleColumn__3oZrC {
+    margin-bottom: 8px;
+  }
+}
+.JobList_secondaryColumnBase__HoPGH,
+.JobList_secondaryColumnSm__Ac1BT,
+.JobList_secondaryTypograpy__suJSf {
+  color: #a8a3b8;
+  font-size: 12px;
+  line-height: 19px;
+  font-family: PPNeueMachina;
+  font-weight: 700;
+  text-transform: uppercase;
+  white-space: "nowrap";
+  padding: 0 12px;
+}
+.JobList_link__yOMBM:focus .JobList_secondaryColumnBase__HoPGH,
+.JobList_link__yOMBM:focus .JobList_secondaryColumnSm__Ac1BT,
+.JobList_link__yOMBM:focus .JobList_secondaryTypograpy__suJSf,
+.JobList_link__yOMBM:hover .JobList_secondaryColumnBase__HoPGH,
+.JobList_link__yOMBM:hover .JobList_secondaryColumnSm__Ac1BT,
+.JobList_link__yOMBM:hover .JobList_secondaryTypograpy__suJSf {
+  color: #000;
+}
+@media screen and (max-width: 960px) {
+  .JobList_secondaryColumnBase__HoPGH,
+  .JobList_secondaryColumnSm__Ac1BT,
+  .JobList_secondaryTypograpy__suJSf {
+    padding: 0;
+  }
+}
+.JobList_secondaryColumnSm__Ac1BT {
+  grid-column: span 2 / span 2;
+  display: block;
+}
+@media screen and (max-width: 960px) {
+  .JobList_secondaryColumnSm__Ac1BT {
+    display: none;
+  }
+}
+.JobList_secondaryColumnBase__HoPGH {
+  grid-column: span 4 / span 4;
+  margin-bottom: 0;
+  display: none;
+}
+@media screen and (max-width: 960px) {
+  .JobList_secondaryColumnBase__HoPGH {
+    margin-bottom: 12px;
+    display: block;
+  }
+}
+.JobList_typeOfEmploymentBase__LfMmp {
+  margin-left: 12px;
+}
+.JobList_locationsColumn__xrHQC {
+  grid-column: span 3 / span 3;
+}
+@media screen and (max-width: 960px) {
+  .JobList_locationsColumn__xrHQC {
+    grid-column: span 4 / span 4;
+  }
+}
+.JobList_location__xqp3R {
+  font-size: 13px;
+  line-height: 160%;
+  font-family: PPNeueMachina;
+  font-weight: 700;
+  padding: 0 12px;
+  color: #a8a3b8;
+}
+.JobList_location__xqp3R.JobList_isRemote__U_YqA {
+  text-transform: uppercase;
+  font-size: 8px;
+}
+.JobList_link__yOMBM:focus .JobList_location__xqp3R,
+.JobList_link__yOMBM:hover .JobList_location__xqp3R {
+  color: #000;
+}
+@media screen and (max-width: 960px) {
+  .JobList_location__xqp3R {
+    padding: 0;
+  }
+}
+.KettlebellBackground_backgroundContainer__gFhDl {
+  position: fixed;
+  top: 0;
+  z-index: -10;
+  width: 100vw;
+  height: 100vh;
+}
